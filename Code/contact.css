@@ -1,0 +1,113 @@
+#Contact {
+    background-color: rgb(26, 25, 25);
+    margin-top: auto;
+    width: 100%;
+    margin-left: 0%;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+
+.left-div {
+    width: 40%;
+    margin-left: 20px;
+}
+
+.right-div {
+    width: 50%;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h3 {
+    color: rgb(90, 214, 146);
+    font-size: 20px;
+}
+
+.contact-details i{
+    background-color:black;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.contact-details span{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    
+}
+
+.contact-info p {
+    text-align: left;
+    font-size: 20px;
+}
+
+.contact-details p {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 85px;
+    margin-top: -15px;
+    padding-top: 4px;
+}
+
+.contact-details p.email {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 125px;
+    margin-top: -15px;
+    padding-top: 4px;
+}
+
+.contact-details i:hover{
+    background-color: darkorange;
+}
+
+.contact-info h1 {
+    font-size: 30px;
+}
+
+input{
+   margin-top: 50px;
+   padding: 20px;
+   border-radius: 10px;
+   margin-right: 20px;
+   width: 210px;
+   background-color: transparent;
+   border-color: aqua;
+}
+::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+textarea {
+    margin-top: 50px;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 81%;
+    background-color: transparent;
+    border-color: aqua;
+}
+
+.btn {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: darkorange;
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 5px 4px rgb(255, 168, 62);
+}
